@@ -1,8 +1,13 @@
+import { Fragment } from "react";
 import Header from "./Components/Header";
+import ProductsContainer from "./Components/ProductsContainer";
 
 function App() {
   return (
-    <Header />
+    <Fragment>
+      <Header />
+      <ProductsContainer />
+    </Fragment>
   );
 }
 
